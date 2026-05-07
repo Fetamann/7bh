@@ -1,0 +1,47 @@
+-- 7 Billion Humans (2214M) --
+-- 41: Image Decrypter --
+-- size: 28/8 --
+-- speed: 8/15 --
+
+-- 7 Billion Humans (2144) --
+-- 41: Image Decrypter --
+
+pickup w
+mem1 = set myitem
+if mem1 >= 1:
+	step w
+	step w
+endif
+if mem1 >= 3:
+	step w
+	step w
+endif
+if mem1 >= 4:
+	step w
+endif
+if mem1 >= 5:
+	step w
+endif
+if mem1 >= 6:
+	step w
+endif
+if mem1 >= 7:
+	step w
+endif
+if mem1 >= 9:
+	step w
+	step w
+endif
+if mem1 >= 10:
+	step w
+endif
+if mem1 >= 11:
+	step w
+endif
+if mem1 == 12:
+	step w
+endif
+drop
+mem2 = nearest hole
+step mem2
+
